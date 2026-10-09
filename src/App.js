@@ -28,6 +28,7 @@ function App() {
   "https://6ac88a8dfd7c536b1bd94092.mockapi.io/UserApi/Userlogin",
   AddUserdata
 );
+      console.log(result)
     } else{
         alert("invalid")
     }
@@ -64,7 +65,7 @@ function App() {
                 </div>
                 <div className="login-with-fb flex direction-column align-items-center">
                     <div>
-                        <img />
+                       
                         <a>Log in with Facebook</a>
                     </div>
                     <a href="#">Forgot password?</a>
