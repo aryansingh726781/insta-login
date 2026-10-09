@@ -66,7 +66,7 @@ function App() {
                 <div className="login-with-fb flex direction-column align-items-center">
                     <div>
                        
-                        <a>Log in with Facebook</a>
+                        <a href ="https://www.facebook.com/">Log in with Facebook</a>
                     </div>
                     <a href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
                 </div>
