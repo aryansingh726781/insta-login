@@ -35,32 +35,7 @@ function App() {
 
   return (
     <div>
-      {/* <h2>User Login</h2>
-
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Enter Username"
-          value={AddUserdata.username}
-          onChange={handleChange}
-          name="username"
-          required
-        />
-
-        <br /><br />
-
-        <input
-          type="password"
-          placeholder="Enter Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-
-        <br /><br />
-
-        <button type="submit">Login</button>
-      </form> */}
+     
 
 
 
@@ -109,19 +84,7 @@ function App() {
         </section>
     </main>
     <footer>
-        <ul className="flex flex-wrap justify-content-center">
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">HELP</a></li>
-            <li><a href="#">PRESS</a></li>
-            <li><a href="#">API</a></li>
-            <li><a href="#">JOBS</a></li>
-            <li><a href="#">PRIVACY</a></li>
-            <li><a href="#">TERMS</a></li>
-            <li><a href="#">LOCATIONS</a></li>
-            <li><a href="#">TOP ACCOUNTS</a></li>
-            <li><a href="#">HASHTAGS</a></li>
-            <li><a href="#">LANGUAGE</a></li>
-        </ul>
+        
         <p className="copyright">© 2020 Instagram from Facebook</p>
     </footer>
     </div>
