@@ -68,12 +68,12 @@ function App() {
                        
                         <a>Log in with Facebook</a>
                     </div>
-                    <a href="#">Forgot password?</a>
+                    <a href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
                 </div>
             </div>
             <div className="panel register flex justify-content-center">
                 <p>Don’t have an account?</p>
-                <a href="#">Sign up</a>
+                <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a>
             </div>
             <div className="app-download flex direction-column align-items-center">
                 <p>Get the app.</p>
