@@ -86,7 +86,7 @@ function App() {
     </main>
     <footer>
         
-        <p className="copyright">© 2020 Instagram from Facebook</p>
+        <p className="copyright">© 2026 Instagram from Meta</p>
     </footer>
     </div>
   );
